@@ -1,0 +1,42 @@
+/* Write your CSS here */
+.item {
+  width: 50%;
+}
+.team-card {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff33;
+  height: 85%;
+  border-radius: 12px;
+  border: 1px solid #ffffff;
+  padding-left: 7px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-right: 7px;
+  margin-left: 8px;
+  margin-right: 8px;
+  margin-bottom: 24px;
+  text-decoration: none;
+}
+.team-name {
+  font-size: 18px;
+  font-family: Bree Serif;
+  text-decoration: none;
+  color: #ffffff;
+}
+@media (min-width: 768px) {
+  .team-name {
+    font-size: 28px;
+  }
+}
+.ipl-team-logo {
+  height: 80px;
+  width: 80px;
+}
+@media (min-width: 768px) {
+  .ipl-team-logo {
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+  }
+}
